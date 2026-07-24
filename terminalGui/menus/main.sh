@@ -10,6 +10,7 @@ cat <<EOF
 🖼 Все арты
 📂 Сортировка
 🎲 Random Mode
+🎲 Name Presets
 EOF
 
 }

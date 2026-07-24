@@ -179,3 +179,25 @@ random_folder() {
     "$PYTHON" "$MAIN" setUserMod "$folder"
 
 }
+
+####################################
+# Получить список Name Presets
+# Возвращает уникальные имена файлов
+# без цифр в конце и без расширения
+####################################
+####################################
+# Получить список Name Presets
+####################################
+names_in_folder() {
+    local folder="$1"
+
+    [[ ! -d "$folder" ]] && return
+
+    find "$folder" -maxdepth 1 -type f |
+    while read -r file; do
+        basename "$file" \
+            | sed -E 's/\.[^.]+$//' \
+            | sed -E 's/[0-9]+$//'
+    done |
+    sort -u
+}
