@@ -76,6 +76,7 @@ class SetRandomMod:
         data = SetRandomMod._load()
         data["status"] = False
         data["usermod"]["path"] = ""
+        data["usermod"]["name"] = ""
         SetRandomMod._save(data)
 
     def set_all_mod():
@@ -91,9 +92,7 @@ class SetRandomMod:
         data["usermod"]["path"] = path
         SetRandomMod._save(data)
 
-    def customset():
-        
-        pass
+
 
 #CONF_FILE work
 def set_config(picture):

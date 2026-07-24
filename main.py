@@ -74,6 +74,7 @@ if __name__ == "__main__":
         PrinInTerminal.start()
     else:
         command = sys.argv[1]
+        
         if command == "randomGen":
             with open(STATUS_FILE, "r", encoding="utf-8") as file:
                 config = json.load(file)
