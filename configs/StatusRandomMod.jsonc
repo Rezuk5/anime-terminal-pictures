@@ -1,8 +1,8 @@
 {
     "status": "usermod",
     "usermod": {
-        "path": "All",
+        "path": "/home/Rezuk/dev/terminalPictures/AnimePictures/Re:zero",
         "name": "",
-        "set" : ""
+        "set": ""
     }
 }

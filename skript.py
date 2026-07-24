@@ -68,9 +68,9 @@ class SetRandomMod:
         with open(STATUS_FILE, "r", encoding="utf-8") as file:
             return json.load(file)
 
-    def _loadCustom():
-        with open(STATUS_FILE, "r", encoding="utf-8") as file:
-            return json.load(file)
+    def _save(data):
+        with open(STATUS_FILE, "w", encoding="utf-8") as file:
+            json.dump(data, file, ensure_ascii=False, indent=4)
 
     def off_mod():
         data = SetRandomMod._load()
@@ -91,6 +91,9 @@ class SetRandomMod:
         data["usermod"]["path"] = path
         SetRandomMod._save(data)
 
+    def customset():
+        
+        pass
 
 #CONF_FILE work
 def set_config(picture):
