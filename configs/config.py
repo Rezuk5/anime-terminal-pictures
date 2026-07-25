@@ -1,2 +1,3 @@
 from pathlib import Path
-PROJECT_DIR = "/home/Rezuk/dev/terminalPictures/"
+
+PROJECT_DIR = Path(__file__).resolve().parent.parent
