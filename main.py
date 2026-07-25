@@ -61,11 +61,12 @@ class SetMods():
     def usermod(path):
         SetRandomMod.set_path_usermod(path)
 
+    def usermodname(path, name):
+        SetRandomMod.set_name_usermod(path, name)
 
     def static(picture):
         SetRandomMod.off_mod()
         set_config(picture)
-        print(picture)
 
 
 if __name__ == "__main__":
@@ -96,9 +97,14 @@ if __name__ == "__main__":
         if command == "offRandomMod":
             SetMods.off_mod()
 
-        if command == "setUserMod":
+        if command == "setUserMod" and len(sys.argv) == 3:
             Input_mod = (sys.argv[2])
             SetMods.usermod(Input_mod)
+        if command == "setUserMod" and len(sys.argv) == 4:
+            Input_path = (sys.argv[2])
+            Input_name = (sys.argv[3])
+            SetMods.usermodname(Input_path, Input_name)
+
 
 #python3 /home/Rezuk /dev/terminalPictures/main.py setUserModп
 #~/.config/hypr/scripts/WaifuSelect.sh   

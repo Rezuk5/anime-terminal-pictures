@@ -92,6 +92,13 @@ class SetRandomMod:
         data["usermod"]["path"] = path
         SetRandomMod._save(data)
 
+    def set_name_usermod(path: str, name: str):
+        data = SetRandomMod._load()
+        data["status"] = "usermod"
+        data["usermod"]["path"] = path
+        data["usermod"]["name"] = name
+        SetRandomMod._save(data)     
+
 
 
 #CONF_FILE work
