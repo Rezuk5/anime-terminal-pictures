@@ -10,17 +10,6 @@ IMAGE_DIR = PROJECT_DIR / "AnimePictures"
 
 #
 class GetRandom():
-    """
-    @staticmethod
-    def get_in_all():
-
-
-        with open(DATA_FILE, "r", encoding="utf-8") as file:
-            pictures = [line.strip() for line in file if line.strip()]
-
-        picture = random.choice(pictures)
-        return picture
-        """
 
     # work STATUS_FILE  and IMAGE_DIR
     @staticmethod

@@ -11,19 +11,6 @@ STATUS_FILE = PROJECT_DIR / "configs" / "StatusRandomMod.jsonc"
 FASTFETCH_CONFIG = PROJECT_DIR / "configs" / "fastfetchConfig.jsonc"
 
 
-"""
-STATUS_FILE="/home/Rezuk/dev/terminalPictures/configs/StatusRandomMod.jsonc"
-
-STATUS=$(jq -r '.status' "$STATUS_FILE")
-
-if [[ "$STATUS" == "All" || "$STATUS" == "usermod" ]]; then
-    python3 /home/Rezuk/dev/terminalPictures/main.py randomGen
-fi
-
-if [[ -z "$DASHBOARD_MODE" ]]; then
-    fastfetch -c /home/Rezuk/dev/terminalPictures/configs/fastfetchConfig.jsonc
-fi
-"""
 class PrinInTerminal():
 
     def start():
