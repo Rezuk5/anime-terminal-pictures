@@ -3,6 +3,7 @@ import sys
 from pathlib import Path
 import subprocess
 
+from data.workData import WorkData
 from skript import GetRandom, SetRandomMod, set_config
 
 PROJECT_DIR = Path(__file__).resolve().parent
@@ -104,6 +105,10 @@ if __name__ == "__main__":
             Input_path = (sys.argv[2])
             Input_name = (sys.argv[3])
             SetMods.usermodname(Input_path, Input_name)
+        
+        if command == "updateData":
+            WorkData()
+            
 
 
 #python3 /home/Rezuk /dev/terminalPictures/main.py setUserModп

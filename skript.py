@@ -83,6 +83,7 @@ class SetRandomMod:
         data = SetRandomMod._load()
         data["status"] = "usermod"
         data["usermod"]["path"] = "All"
+        data["usermod"]["name"] = ""
         SetRandomMod._save(data)
 
 
@@ -90,7 +91,9 @@ class SetRandomMod:
         data = SetRandomMod._load()
         data["status"] = "usermod"
         data["usermod"]["path"] = path
+        data["usermod"]["name"] = ""
         SetRandomMod._save(data)
+
 
     def set_name_usermod(path: str, name: str):
         data = SetRandomMod._load()
