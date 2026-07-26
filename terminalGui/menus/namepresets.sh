@@ -5,7 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/../lib/config.sh"
 source "$SCRIPT_DIR/../lib/functions.sh"
 
-CUSTOM_DIR="/home/Rezuk/dev/terminalPictures/data/CustomSet"
+CUSTOM_DIR="$CUSTOMSET_DIR"
 
 ####################################
 # Список папок
@@ -57,7 +57,7 @@ name=$(
 # Применить
 ####################################
 
-python3 /home/Rezuk/dev/terminalPictures/main.py \
+"$PYTHON" "$MAIN" \
     setUserMod \
     "$FULL" \
     "$name"
