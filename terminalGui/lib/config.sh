@@ -18,10 +18,10 @@ ART_DIR="$PROJECT_DIR/AnimePictures"
 #########################################
 
 # Меню (как в Kool_Quick_Settings)
-MENU_THEME="$HOME/.config/rofi/config-edit.rasi"
+MENU_THEME="$PROJECT_DIR/terminalGui/rofi/config-edit1.rasi"
 
 # Галерея картинок
-WALL_THEME="$HOME/.config/rofi/config-wallpaper.rasi"
+WALL_THEME="$PROJECT_DIR/terminalGui/rofi/config-wallpaper1.rasi"
 
 #########################################
 # PYTHON
