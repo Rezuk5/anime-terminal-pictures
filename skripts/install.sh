@@ -36,7 +36,8 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 echo "✓ Configuration complete."
 
-pipx install "$PROJECT_DIR"
+pipx install -e "$PROJECT_DIR"
+
 echo "Making shell scripts executable..."
 
 echo "Done!"
