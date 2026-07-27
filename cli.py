@@ -65,7 +65,8 @@ def main():
     sub.add_parser("updateData")
     sub.add_parser("randomGen")
     sub.add_parser("setAllMod")
-
+    sub.add_parser("gui")
+    
     picture = sub.add_parser("setPicture")
     picture.add_argument("picture")
 
