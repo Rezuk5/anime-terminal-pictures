@@ -32,7 +32,7 @@ fi
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-"$PYTHON" "$SCRIPT_DIR/install.py"
+"$PYTHON" "$PROJECT_DIR/data/workData"
 
 echo "✓ Configuration complete."
 
