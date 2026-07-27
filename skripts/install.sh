@@ -11,8 +11,7 @@ sudo pacman -Syu --needed \
     python-pipx \
     rofi
 
-pipx ensurepath
-pipx install --force git+https://github.com/Rezuk5/terminalPictures.git
+pipx install "$PROJECT_DIR"
 
 echo "Making shell scripts executable..."
 
