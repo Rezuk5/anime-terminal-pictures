@@ -4,7 +4,7 @@ from pathlib import Path
 import subprocess
 
 from data.workData import WorkData
-from skript import GetRandom, SetRandomMod, set_config
+from skripts.functional import GetRandom, SetRandomMod, set_config
 
 PROJECT_DIR = Path(__file__).resolve().parent
 STATUS_FILE = PROJECT_DIR / "configs" / "StatusRandomMod.jsonc"
