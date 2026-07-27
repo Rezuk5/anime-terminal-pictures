@@ -11,9 +11,6 @@ sudo pacman -Syu --needed \
     python-pipx \
     rofi
 
-pipx install "$PROJECT_DIR"
-
-echo "Making shell scripts executable..."
 
 find "$PROJECT_DIR/terminalGui" -type f -name "*.sh" -exec chmod +x {} \;
 
@@ -38,5 +35,8 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 "$PYTHON" "$SCRIPT_DIR/install.py"
 
 echo "✓ Configuration complete."
+
+pipx install "$PROJECT_DIR"
+echo "Making shell scripts executable..."
 
 echo "Done!"
