@@ -1,7 +1,7 @@
 /* ---- 💫 https://github.com/JaKooLit 💫 ---- */
 /* KooL Hyprland Edit Rofi Config */
 
-@import "~/terminalGui/rofi/config.rasi"  
+@import "config.rasi"
 
 /* ---- Mainbox ---- */
 mainbox {

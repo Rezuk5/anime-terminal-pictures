@@ -16,7 +16,7 @@ configuration {
 }
 
 /* ---- Load wallust colors ---- */
-@theme "~/wallust/colors-rofi.rasi"
+@theme "wallust/colors-rofi.rasi"
 /* ---- Global Properties ---- */
 * {
     background-alt:          @color1;
