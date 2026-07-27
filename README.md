@@ -1,6 +1,5 @@
 
-bash <(curl -fsSL https://raw.githubusercontent.com/Rezuk5/terminalPictures/skripts/install.sh)
-bash <(wget -qO- https://raw.githubusercontent.com/Rezuk5/terminalPictures/skripts/install.sh)
+
 
 git clone https://github.com/Rezuk5/terminalPictures.git && \
 cd terminalPictures && \
