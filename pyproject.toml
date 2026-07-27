@@ -25,3 +25,12 @@ where = ["."]
 configs = ["*.jsonc"]
 data = ["**/*"]
 skripts = ["**/*"]
+
+
+[tool.setuptools.data-files]
+"terminalGui" = ["terminalGui/menu.sh"]
+"terminalGui/lib" = ["terminalGui/lib/*.sh"]
+"terminalGui/menus" = ["terminalGui/menus/*.sh"]
+"terminalGui/rofi" = ["terminalGui/rofi/*.rasi"]
+"terminalGui/themes" = ["terminalGui/themes/*.rasi"]
+"terminalGui/themes/wallust" = ["terminalGui/themes/wallust/*.rasi"]

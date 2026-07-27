@@ -10,11 +10,10 @@ from skripts.functional import GetRandom, SetRandomMod, set_config
 PROJECT_DIR = Path(__file__).resolve().parent
 STATUS_FILE = PROJECT_DIR / "configs" / "StatusRandomMod.jsonc"
 FASTFETCH_CONFIG = PROJECT_DIR / "configs" / "fastfetchConfig.jsonc"
-
+MENU = PROJECT_DIR / "terminalGui" / "menu.sh"
 
 class PrinInTerminal:
 
-    @staticmethod
     def start():
         with open(STATUS_FILE, "r", encoding="utf-8") as f:
             config = json.load(f)
@@ -34,7 +33,6 @@ class PrinInTerminal:
 
 class RandomPictures:
 
-    @staticmethod
     def Random_usermod():
         picture = GetRandom.get_in_usermod()
         set_config(picture)
@@ -42,19 +40,15 @@ class RandomPictures:
 
 class SetMods:
 
-    @staticmethod
     def all_mod():
         SetRandomMod.set_all_mod()
 
-    @staticmethod
     def usermod(path):
         SetRandomMod.set_path_usermod(path)
 
-    @staticmethod
     def usermodname(path, name):
         SetRandomMod.set_name_usermod(path, name)
 
-    @staticmethod
     def static(picture):
         SetRandomMod.off_mod()
         set_config(picture)
@@ -108,6 +102,8 @@ def main():
 
     elif args.command == "updateData":
         WorkData()
+    elif args.command == "gui":
+        subprocess.run([str(MENU)], check=True)
 
 
 if __name__ == "__main__":
