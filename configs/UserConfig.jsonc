@@ -1,7 +1,7 @@
 {
-    "status": "All",
+    "status": false,
     "usermod": {
-        "path": false,
-        "name": false
+        "path": "",
+        "name": ""
     }
 }

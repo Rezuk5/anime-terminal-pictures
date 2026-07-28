@@ -7,7 +7,7 @@ from data.workData import WorkData
 from skripts.functional import GetRandom, SetRandomMod, set_config
 
 PROJECT_DIR = Path(__file__).resolve().parent
-STATUS_FILE = PROJECT_DIR / "configs" / "StatusRandomMod.jsonc"
+STATUS_FILE = PROJECT_DIR / "configs" / "UserConfig.jsonc"
 FASTFETCH_CONFIG = PROJECT_DIR / "configs" / "fastfetchConfig.jsonc"
 
 

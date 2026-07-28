@@ -1,14 +1,8 @@
 from pathlib import Path
 
-# terminalPictures/
 PROJECT_DIR = Path(__file__).resolve().parent.parent
-
-# terminalPictures/AnimePictures
 IMAGE_DIR = PROJECT_DIR / "AnimePictures"
-
-# terminalPictures/data/dataPictures.txt
 DATA_FILE = PROJECT_DIR / "data" / "dataPictures.txt"
-
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
 
 
