@@ -1,7 +1,7 @@
 /* ---- 💫 https://github.com/JaKooLit 💫 ---- */
 /* Main Config (wallpaper) */
 
-@import "config.rasi" 
+@import "~/dev/terminalPictures/terminalGui/rofi/0-shared-fonts.rasi"
 
 /* ---- Configuration ---- */ 
 configuration {

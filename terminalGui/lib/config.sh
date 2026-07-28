@@ -19,8 +19,12 @@ CUSTOMSET_DIR="$PROJECT_DIR/data/CustomSet"
 # THEMES
 #########################################
 
+#MENU_THEME="rofi/config-edit1.rasi"
+#WALL_THEME="rofi/config-wallpaper1.rasi"
+
 MENU_THEME="$PROJECT_DIR/terminalGui/rofi/config-edit1.rasi"
 WALL_THEME="$PROJECT_DIR/terminalGui/rofi/config-wallpaper1.rasi"
+
 
 #########################################
 # PYTHON
