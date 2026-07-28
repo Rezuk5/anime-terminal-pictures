@@ -5,7 +5,7 @@ import random
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 CONF_FILE = PROJECT_DIR / "configs" / "fastfetchConfig.jsonc"
-STATUS_FILE = PROJECT_DIR / "configs" / "StatusRandomMod.jsonc"
+STATUS_FILE = PROJECT_DIR / "configs" / "UserConfig.jsonc"
 DATA_FILE = PROJECT_DIR / "data" / "dataPictures.txt"
 IMAGE_DIR = PROJECT_DIR / "AnimePictures"
 
