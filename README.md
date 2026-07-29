@@ -12,7 +12,12 @@
 
 Конечно же, есть возможность вручную добавлять свои изображения, создавать собственные наборы и полностью менять библиотеку картинок.
 
-![](https://www.youtube.com/watch?v=Ok-RFldTtr4)
+<div align="center">
+
+https://github.com/Rezuk5/anime-terminal-pictures/tree/master/screenshots/videoEx.mp4
+
+</div>
+![YouTube Demo](https://youtu.be/Ok-RFldTtr4)
 
 > ⚠️ **Важно**
 >
