@@ -18,7 +18,11 @@
 
 <div align="center">
 
-https://github.com/Rezuk5/anime-terminal-pictures/raw/master/screenshots/videoEx.mp4
+
+
+https://github.com/user-attachments/assets/1fa585bf-40a7-4835-ae99-cebe0caaebc4
+
+
 
 </div>
 ![YouTube Demo](https://youtu.be/Ok-RFldTtr4)
