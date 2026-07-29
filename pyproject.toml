@@ -25,6 +25,8 @@ where = ["."]
 configs = ["*.jsonc"]
 data = ["**/*"]
 skripts = ["**/*"]
+terminalGui = ["**/*"]
+AnimePictures = ["**/*"]
 
 
 [tool.setuptools.data-files]
