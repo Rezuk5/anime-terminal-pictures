@@ -40,14 +40,15 @@
 
 ![](screenshots/1button.png)
 
-> Все остальные примеры находятся в папке **screenshots/**.
-# Установка
+> Все остальные примеры находятся в папке [**screenshots**](https://github.com/Rezuk5/anime-terminal-pictures/tree/master/skripts).
+
+### Установка
 
 > ⚠️ **Важно**
 >
 > На данный момент проект необходимо устанавливать **только в домашнюю директорию (`~/terminalPictures`)**.
 >
-> GUI использует Rofi-темы с фиксированными путями. Если установить проект в другое место, графический интерфейс работать не будет. Пути можно изменить вручную, подробнее об этом написано в **terminalGui/README.md**.
+> GUI использует Rofi-темы с фиксированными путями. Если установить проект в другое место, графический интерфейс работать не будет. Пути можно изменить вручную, подробнее об этом написано в [**terminalGui/README.md**](https://github.com/Rezuk5/anime-terminal-pictures/blob/master/terminalGui/README.md).
 
 ---
 
@@ -58,9 +59,9 @@
 ```bash
 cd ~
 
-git clone https://github.com/Rezuk5/terminalPictures.git
+git clone https://github.com/Rezuk5/anime-terminal-pictures.git
 
-cd terminalPictures
+cd anime-terminal-pictures
 
 bash skripts/install.sh
 ```
@@ -82,9 +83,9 @@ bash skripts/install.sh
 ```bash
 cd ~
 
-git clone https://github.com/Rezuk5/terminalPictures.git
+git clone https://github.com/Rezuk5/anime-terminal-pictures.git
 
-cd terminalPictures
+cd anime-terminal-pictures
 
 pipx install -e .
 
@@ -120,7 +121,7 @@ find skripts -type f -name "*.sh" -exec chmod +x {} \;
 ### 🎲 Random Mode
 Нужен для установки рандом режима при котором atp каждый раз выводит разные картинки. В нем есть 2 вида раздела:
 
-- 1 Устанавливает AllMod случайную выборку из всех картинок которые лежат в `AnimePictures`  
+- 1 Устанавливает AllMod случайную выборку из всех картинок которые лежат в [`AnimePictures`](https://github.com/Rezuk5/anime-terminal-pictures/tree/master/AnimePictures)  
 - 2 Это выбор по названием папок, обычно название тайтлов, устанавливает userMod, при вводе команды atp случайно будут выбираться изображения только из этой папки
 - 
 ### 🎲 Name Presets
@@ -142,7 +143,7 @@ find skripts -type f -name "*.sh" -exec chmod +x {} \;
 
 ---
 
-# Добавление/удаление и взаимодействие с наборами картинок происходит в `AnimePictures` и `data/CustomSet`
+# Добавление/удаление и взаимодействие с наборами картинок происходит в [`AnimePictures`](https://github.com/Rezuk5/anime-terminal-pictures/tree/master/AnimePictures) и [`data/CustomSet`](https://github.com/Rezuk5/anime-terminal-pictures/tree/master/data)
 
 ## **AnimePictures**
  подразумевает хранение папок с названиями тайтлов аниме или своих сборок. Все фото в этих папках используются в режиме **setAllMod**, то есть могут быть выбраны случайным образом.
@@ -163,9 +164,8 @@ Cам вывод фото и информации о системе происх
 `fastfetch -c configs/fastfetchConfig.jsonc`  В этом конфиге хранится путь к текущему изображению и настройки вывода Fastfetch.
 
 
-Обнавление data/dataPictures.txt в workData.py
-Подробнее — **data/README.md**
+Обновление [`data/dataPictures.txt`](https://github.com/Rezuk5/anime-terminal-pictures/blob/master/data/dataPictures.txt) выполняется в [`workData.py`](https://github.com/Rezuk5/anime-terminal-pictures/blob/master/data/workData.py).  
+Подробнее — **[`README.md`](https://github.com/Rezuk5/anime-terminal-pictures/blob/master/data/README.md)**
 
-
-Изменение картинок, режимов и тд в skripts/fuctional.py
-Подробнее — **skripts/README.md**
+Изменение изображений, режимов и других параметров выполняется в [`skripts/fuctional.py`](https://github.com/Rezuk5/anime-terminal-pictures/blob/master/skripts/functional.py).  
+Подробнее — **[`README.md`](https://github.com/Rezuk5/anime-terminal-pictures/blob/master/skripts/README.md)**

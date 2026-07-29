@@ -18,7 +18,7 @@ configuration {
 
 
 /* ---- Load wallust colors ---- */
-@theme "~/terminalPictures/terminalGui/themes/wallust/colors-rofi.rasi"
+@theme "~/anime-terminal-pictures/terminalGui/themes/wallust/colors-rofi.rasi"
 
 /* ---- Global Properties ---- */
 * {
