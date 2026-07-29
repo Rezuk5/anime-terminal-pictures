@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/1fa585bf-40a7-4835-ae99-cebe0caaebc4
 
 
 
-## Пример
+## Demo 
 
 ![](screenshots/examples.png)
 
@@ -46,7 +46,7 @@ https://github.com/user-attachments/assets/1fa585bf-40a7-4835-ae99-cebe0caaebc4
 
 ---
 
-## GUI
+## Demo GUI
 
 
 
@@ -56,6 +56,7 @@ https://github.com/user-attachments/assets/1fa585bf-40a7-4835-ae99-cebe0caaebc4
 ![](screenshots/1button.png)
 
 > Все остальные примеры находятся в папке [**screenshots**](https://github.com/Rezuk5/anime-terminal-pictures/tree/master/skripts).
+
 
 ### Установка
 
