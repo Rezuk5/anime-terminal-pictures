@@ -12,9 +12,13 @@
 
 Конечно же, есть возможность вручную добавлять свои изображения, создавать собственные наборы и полностью менять библиотеку картинок.
 
+<h3 align="center">
+  🎬 Anime Terminal Pictures Demo
+</h3>
+
 <div align="center">
 
-https://github.com/Rezuk5/anime-terminal-pictures/tree/master/screenshots/videoEx.mp4
+https://github.com/Rezuk5/anime-terminal-pictures/raw/master/screenshots/videoEx.mp4
 
 </div>
 ![YouTube Demo](https://youtu.be/Ok-RFldTtr4)
