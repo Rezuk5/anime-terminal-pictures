@@ -12,7 +12,7 @@
 
 Конечно же, есть возможность вручную добавлять свои изображения, создавать собственные наборы и полностью менять библиотеку картинок.
 
-![](https://youtu.be/Ok-RFldTtr4?si=che--f7iNwuK2bxt)
+[![Watch demo](https://img.youtube.com/vi/Ok-RFldTtr4/maxresdefault.jpg)](https://youtu.be/Ok-RFldTtr4)
 
 > ⚠️ **Важно**
 >
