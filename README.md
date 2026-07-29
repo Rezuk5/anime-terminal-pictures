@@ -22,10 +22,11 @@
 
 https://github.com/user-attachments/assets/1fa585bf-40a7-4835-ae99-cebe0caaebc4
 
-
-
 </div>
-![YouTube Demo](https://youtu.be/Ok-RFldTtr4)
+
+[YouTube Demo](https://youtu.be/Ok-RFldTtr4)
+
+
 
 > ⚠️ **Важно**
 >
