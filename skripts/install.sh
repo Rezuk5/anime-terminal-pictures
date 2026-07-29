@@ -40,4 +40,6 @@ pipx install -e "$PROJECT_DIR"
 
 echo "Making shell scripts executable..."
 
+pipx ensurepath
+
 echo "Done!"

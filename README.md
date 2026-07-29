@@ -104,6 +104,7 @@ git clone https://github.com/Rezuk5/anime-terminal-pictures.git
 cd anime-terminal-pictures
 
 pipx install -e .
+pipx ensurepath
 
 atp updateData
 ```
