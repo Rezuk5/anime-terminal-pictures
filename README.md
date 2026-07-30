@@ -186,3 +186,6 @@ Cам вывод фото и информации о системе происх
 
 Изменение изображений, режимов и других параметров выполняется в [`skripts/fuctional.py`](https://github.com/Rezuk5/anime-terminal-pictures/blob/master/skripts/functional.py).  
 Подробнее — **[`README.md`](https://github.com/Rezuk5/anime-terminal-pictures/blob/master/skripts/README.md)**
+
+Работа ui, места нахождений статичных путей и способ настроить свою rofi тему 
+Подробнее - **[`README.md`](https://github.com/Rezuk5/anime-terminal-pictures/blob/master/terminalGui/README.md)**
